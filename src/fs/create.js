@@ -7,7 +7,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 const filePath = join(__dirname, 'files', 'fresh.txt');
 const content = 'I am fresh and young';
-
+//check
 const create = async () => {
 	const isExist = await checkExistence(filePath, 'file');
 
@@ -19,3 +19,4 @@ const create = async () => {
 };
 
 await create();
+
